@@ -1,0 +1,5 @@
+### Parameter file for the BRKGA software
+# name				switch	type	values			[conditions (using R syntax)]
+populationElite		"-e "	r  		(0.10, 0.25)
+populationMutants	"-m "	r  		(0.10, 0.30)
+rhoe             	"-r "	r  		(0.5, 0.8)

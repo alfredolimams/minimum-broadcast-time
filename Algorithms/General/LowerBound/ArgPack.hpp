@@ -1,0 +1,46 @@
+#ifndef ARGPACK_H_
+#define ARGPACK_H_
+
+#include <string>
+#include <assert.h>
+
+using namespace std;
+
+class ArgPack {
+public:
+	string inputFile;
+	string outputFile;
+
+	bool printOutput;
+	bool writeFile;
+
+	//------------
+	// singleton functions
+	//------------
+
+	static const ArgPack &getInstance() { assert(def_ap_); return *def_ap_; }
+
+	void print() const;
+
+	bool Ok() const;
+
+	ArgPack(int argc, char * const argv []);
+
+	~ArgPack() { assert(def_ap_); def_ap_ = 0; }
+
+private:
+
+	//------------
+	// singleton instance
+	//------------
+	
+	static ArgPack *def_ap_;
+
+	string value;
+	string programName;
+	bool ok;
+};
+
+
+
+#endif /* ARGPACK_H_ */

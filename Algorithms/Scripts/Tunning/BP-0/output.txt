@@ -1,0 +1,29 @@
+# 2020-12-23 13:00:59 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    populationElite populationMutants rhoe
+5              0.11              0.26 0.77
+68             0.13              0.25 0.70
+67             0.13              0.27 0.67
+81             0.20              0.22 0.54
+102            0.20              0.18 0.74
+# 2020-12-23 13:00:59 -03: Stopped because there is not enough budget left to race more than the minimum (5)
+# You may either increase the budget or set 'minNbSurvival' to a lower value
+# Iteration: 4
+# nbIterations: 4
+# experimentsUsedSoFar: 997
+# timeUsed: 0
+# remainingBudget: 3
+# currentBudget: 3
+# number of elites: 5
+# nbConfigurations: 4
+    .ID. populationElite populationMutants rhoe .PARENT. .ALIVE. .RANK.
+5      5            0.11              0.26 0.77       NA    TRUE  158.5
+68    68            0.13              0.25 0.70       37    TRUE  158.5
+67    67            0.13              0.27 0.67       37    TRUE  166.5
+81    81            0.20              0.22 0.54        8    TRUE  166.5
+102  102            0.20              0.18 0.74        3    TRUE  166.5
+      .WEIGHT.
+5   0.33333333
+68  0.26666667
+67  0.20000000
+81  0.13333333
+102 0.06666667

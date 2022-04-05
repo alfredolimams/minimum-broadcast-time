@@ -1,0 +1,23 @@
+# 2020-12-26 19:54:04 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+  density MaxETime
+3    0.30    18.01
+4    0.20    18.60
+5    0.80    13.81
+7    0.52    14.93
+8    0.56    14.43
+# 2020-12-26 19:54:04 -03: Stopped because there is not enough budget left to race more than the minimum (5)
+# You may either increase the budget or set 'minNbSurvival' to a lower value
+# Iteration: 4
+# nbIterations: 4
+# experimentsUsedSoFar: 997
+# timeUsed: 0
+# remainingBudget: 3
+# currentBudget: 3
+# number of elites: 5
+# nbConfigurations: 4
+  .ID. density MaxETime .PARENT. .ALIVE. .RANK.   .WEIGHT.
+3    3    0.30    18.01       NA    TRUE    191 0.33333333
+4    4    0.20    18.60       NA    TRUE    191 0.26666667
+5    5    0.80    13.81       NA    TRUE    191 0.20000000
+7    7    0.52    14.93       NA    TRUE    191 0.13333333
+8    8    0.56    14.43       NA    TRUE    191 0.06666667

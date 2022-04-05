@@ -1,0 +1,143 @@
+# 2021-04-25 16:11:09 -03: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 3
+# minNbSurvival: 5
+# nbParameters: 3
+# seed: 1174224823
+# confidence level: 0.95
+# budget: 1000
+# mu: 5
+# deterministic: FALSE
+
+# 2021-04-25 16:11:09 -03: Iteration 1 of 3
+# experimentsUsedSoFar: 0
+# remainingBudget: 1000
+# currentBudget: 333
+# nbConfigurations: 55
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded
+
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          1|         55|         55|    23.00000000|         55|00:01:50|   NA|  NA|    NA|
+|x|          2|         55|          5|    24.00000000|        110|00:02:10|+0.06|0.53|0.8719|
+|x|          3|         55|          5|    24.00000000|        165|00:00:49|-0.01|0.33|0.9682|
+|x|          4|         55|          5|    22.75000000|        220|00:02:09|-0.00|0.25|0.9601|
+|=|          5|         55|         35|    24.40000000|        275|00:02:00|+0.02|0.21|0.9441|
+|=|          6|         55|         27|    24.83333333|        330|00:04:18|+0.05|0.21|0.9260|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          27    mean value:     24.83333333
+Description of the best-so-far configuration:
+   .ID. populationElite populationMutants rhoe .PARENT.
+27   27            0.21              0.27 0.58       NA
+
+# 2021-04-25 16:24:28 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   populationElite populationMutants rhoe
+27            0.21              0.27 0.58
+8             0.11              0.19 0.73
+10            0.22              0.27 0.63
+35            0.22              0.12 0.59
+28            0.21              0.16 0.51
+# 2021-04-25 16:24:28 -03: Iteration 2 of 3
+# experimentsUsedSoFar: 330
+# remainingBudget: 670
+# currentBudget: 335
+# nbConfigurations: 52
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded
+
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          7|         52|         83|    21.00000000|         52|00:03:55|   NA|  NA|    NA|
+|x|          2|         52|         57|    23.50000000|         99|00:02:20|+0.17|0.58|0.7846|
+|x|          4|         52|         57|    22.00000000|        146|00:01:52|+0.14|0.43|0.8106|
+|x|          3|         52|         83|    22.25000000|        193|00:00:43|+0.00|0.25|0.9521|
+|=|          6|         52|         83|    23.20000000|        240|00:03:42|+0.08|0.27|0.8776|
+|=|          5|         52|         97|    24.33333333|        287|00:01:53|+0.05|0.21|0.9263|
+|=|          1|         52|         85|    24.57142857|        334|00:01:49|+0.05|0.18|0.9378|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          85    mean value:     24.57142857
+Description of the best-so-far configuration:
+   .ID. populationElite populationMutants rhoe .PARENT.
+85   85            0.21               0.3 0.61       10
+
+# 2021-04-25 16:40:47 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   populationElite populationMutants rhoe
+85            0.21              0.30 0.61
+83            0.20              0.28 0.53
+27            0.21              0.27 0.58
+10            0.22              0.27 0.63
+74            0.20              0.15 0.61
+# 2021-04-25 16:40:47 -03: Iteration 3 of 3
+# experimentsUsedSoFar: 664
+# remainingBudget: 336
+# currentBudget: 336
+# nbConfigurations: 46
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded
+
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          8|         46|        132|    22.00000000|         46|00:01:29|   NA|  NA|    NA|
+|x|          4|         46|        132|    20.50000000|         87|00:01:35|+0.00|0.50|0.4891|
+|x|          1|         46|         83|    22.66666667|        128|00:01:19|-0.13|0.24|0.7058|
+|x|          5|         46|         85|    23.75000000|        169|00:01:26|-0.10|0.17|0.7959|
+|=|          2|         46|         27|    24.40000000|        210|00:01:41|-0.03|0.17|0.7980|
+|=|          6|         46|         27|    24.66666667|        251|00:03:20|-0.02|0.15|0.8191|
+|=|          7|         46|         83|    24.71428571|        292|00:02:58|-0.00|0.14|0.8360|
+|=|          3|         46|         83|    24.62500000|        333|00:00:36|-0.00|0.12|0.8545|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          83    mean value:     24.62500000
+Description of the best-so-far configuration:
+   .ID. populationElite populationMutants rhoe .PARENT.
+83   83             0.2              0.28 0.53       27
+
+# 2021-04-25 16:55:17 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    populationElite populationMutants rhoe
+83             0.20              0.28 0.53
+103            0.18              0.29 0.57
+27             0.21              0.27 0.58
+104            0.20              0.26 0.58
+10             0.22              0.27 0.63
+# 2021-04-25 16:55:17 -03: Stopped because there is not enough budget left to race more than the minimum (5)
+# You may either increase the budget or set 'minNbSurvival' to a lower value
+# Iteration: 4
+# nbIterations: 4
+# experimentsUsedSoFar: 997
+# timeUsed: 0
+# remainingBudget: 3
+# currentBudget: 3
+# number of elites: 5
+# nbConfigurations: 4
+    .ID. populationElite populationMutants rhoe .PARENT. .ALIVE. .RANK.
+83    83            0.20              0.28 0.53       27    TRUE  116.5
+103  103            0.18              0.29 0.57       27    TRUE  118.5
+27    27            0.21              0.27 0.58       NA    TRUE  125.5
+104  104            0.20              0.26 0.58       27    TRUE  125.5
+10    10            0.22              0.27 0.63       NA    TRUE  126.0
+      .WEIGHT.
+83  0.33333333
+103 0.26666667
+27  0.20000000
+104 0.13333333
+10  0.06666667

@@ -1,0 +1,4 @@
+### Parameter file for the BRKGA software
+# name				switch	type	values			[conditions (using R syntax)]
+density				"-D "	r 		(0.1,1)
+MaxETime			"-U " 	r 		(5,25)

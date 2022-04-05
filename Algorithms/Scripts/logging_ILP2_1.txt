@@ -1,0 +1,631 @@
+# ../../Harary/Inputs/H10_30.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 29.000000 after 0.04 sec. (13.14 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 39688 rows and 19152 columns.
+MIP Presolve modified 14412 coefficients.
+Reduced MIP has 15392 rows, 7849 columns, and 932772 nonzeros.
+Reduced MIP has 7848 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.97 sec. (493.91 ticks)
+Probing time = 0.03 sec. (9.40 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 15392 rows, 7849 columns, and 932772 nonzeros.
+Reduced MIP has 7848 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.84 sec. (467.60 ticks)
+Probing time = 0.03 sec. (9.35 ticks)
+Clique table members: 18759.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 91.98 sec. (37228.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           29.0000        5.0000            82.76%
+      0     0        5.0000   269       29.0000        5.0000    27743   82.76%
+*     0+    0                           27.0000        5.0000            81.48%
+*     0+    0                            5.0000        5.0000             0.00%
+      0     0        cutoff              5.0000        5.0000    27743    0.00%
+Elapsed time = 97.70 sec. (40789.02 ticks, tree = 0.01 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =   97.71 sec. (40792.98 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =   97.71 sec. (40792.98 ticks)
+# ../../Harary/Inputs/H11_50.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 49.000000 after 0.19 sec. (67.58 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 202394 rows and 99735 columns.
+MIP Presolve modified 47313 coefficients.
+Reduced MIP has 50431 rows, 25266 columns, and 5821191 nonzeros.
+Reduced MIP has 25265 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 7.31 sec. (2864.52 ticks)
+Probing time = 0.08 sec. (21.57 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 50431 rows, 25266 columns, and 5821191 nonzeros.
+Reduced MIP has 25265 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 7.58 sec. (2873.38 ticks)
+Probing time = 0.07 sec. (21.33 ticks)
+Clique table members: 24076.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+# ../../Harary/Inputs/H20_50.in
+# ../../Harary/Inputs/H21_50.in
+# ../../Harary/Inputs/H2_100.in
+# ../../Harary/Inputs/H2_17.in
+# ../../Harary/Inputs/H2_30.in
+# ../../Harary/Inputs/H2_50.in
+# ../../Harary/Inputs/H3_17.in
+# ../../Harary/Inputs/H3_30.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+MIP Presolve eliminated 50137 rows and 24879 columns.
+MIP Presolve modified 4199 coefficients.
+Reduced MIP has 4838 rows, 2122 columns, and 60353 nonzeros.
+Reduced MIP has 2121 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.11 sec. (55.82 ticks)
+Found incumbent of value 29.000000 after 0.13 sec. (66.50 ticks)
+Probing time = 0.02 sec. (5.57 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 4838 rows, 2122 columns, and 60353 nonzeros.
+Reduced MIP has 2121 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.06 sec. (34.32 ticks)
+Probing time = 0.01 sec. (5.36 ticks)
+Clique table members: 14275.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+# ../../Harary/Inputs/H3_50.in
+# ../../Harary/Inputs/H5_17.in
+# ../../Harary/Inputs/H6_17.in
+# ../../Harary/Inputs/H7_17.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 5.000000 after 0.00 sec. (1.17 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (1.28 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (1.28 ticks)
+# ../../Harary/Inputs/H8_30.in
+# ../../Harary/Inputs/H9_30.in
+# ../../Harary/Inputs/H2_100.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+MIP Presolve eliminated 1987957 rows and 990100 columns.
+MIP Presolve modified 19688 coefficients.
+Reduced MIP has 22243 rows, 9901 columns, and 377392 nonzeros.
+Reduced MIP has 9900 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.76 sec. (1111.11 ticks)
+Found incumbent of value 99.000000 after 3.22 sec. (1288.70 ticks)
+Probing time = 0.06 sec. (17.07 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 22243 rows, 9901 columns, and 377392 nonzeros.
+Reduced MIP has 9900 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.37 sec. (205.99 ticks)
+Probing time = 0.05 sec. (16.50 ticks)
+Clique table members: 35019.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 2.41 sec. (1832.36 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           99.0000        7.0000            92.93%
+      0     0        7.6429  6883       99.0000        7.6429     8061   92.28%
+      0     0        8.0000  4831       99.0000     Cuts: 818    12124   91.92%
+      0     0        8.0000  4642       99.0000    Cuts: 1221    14154   91.92%
+      0     0        8.1803  4538       99.0000    Cuts: 1245    16557   91.74%
+*     0+    0                           50.0000        8.1803            83.64%
+      0     0        cutoff             50.0000                  16557    0.00%
+Elapsed time = 17.58 sec. (8888.92 ticks, tree = 0.01 MB, solutions = 2)
+
+Implied bound cuts applied:  800
+Zero-half cuts applied:  276
+Gomory fractional cuts applied:  151
+
+Root node processing (before b&c):
+  Real time             =   17.65 sec. (8923.61 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =   17.65 sec. (8923.61 ticks)
+# ../../Harary/Inputs/H2_17.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+MIP Presolve eliminated 9564 rows and 4641 columns.
+MIP Presolve modified 484 coefficients.
+Reduced MIP has 585 rows, 273 columns, and 2740 nonzeros.
+Reduced MIP has 272 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (6.22 ticks)
+Found incumbent of value 16.000000 after 0.01 sec. (7.25 ticks)
+Probing time = 0.01 sec. (3.12 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 42 rows and 0 columns.
+MIP Presolve modified 400 coefficients.
+Reduced MIP has 543 rows, 273 columns, and 2656 nonzeros.
+Reduced MIP has 272 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (2.07 ticks)
+Probing time = 0.01 sec. (2.95 ticks)
+Clique table members: 1503.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (2.71 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           16.0000        8.0000            50.00%
+      0     0        8.0920   155       16.0000        8.0920      154   49.43%
+*     0+    0                            9.0000        8.0920            10.09%
+      0     0        cutoff              9.0000        8.0920      154   10.09%
+Elapsed time = 0.05 sec. (21.32 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.05 sec. (21.49 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.05 sec. (21.49 ticks)
+# ../../Harary/Inputs/H2_30.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+MIP Presolve eliminated 53026 rows and 26130 columns.
+MIP Presolve modified 1680 coefficients.
+Reduced MIP has 1934 rows, 871 columns, and 12744 nonzeros.
+Reduced MIP has 870 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.06 sec. (31.74 ticks)
+Found incumbent of value 29.000000 after 0.07 sec. (36.96 ticks)
+Probing time = 0.01 sec. (5.73 ticks)
+Cover probing fixed 0 vars, tightened 3 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 210 rows and 0 columns.
+MIP Presolve modified 1260 coefficients.
+Reduced MIP has 1724 rows, 871 columns, and 12324 nonzeros.
+Reduced MIP has 870 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (7.95 ticks)
+Probing time = 0.01 sec. (5.36 ticks)
+Clique table members: 6589.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.02 sec. (11.68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           29.0000       15.0000            48.28%
+      0     0       15.0000    66       29.0000       15.0000      334   48.28%
+*     0+    0                           15.0000       15.0000             0.00%
+      0     0        cutoff             15.0000       15.0000      334    0.00%
+Elapsed time = 0.16 sec. (97.02 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.17 sec. (97.98 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.17 sec. (97.98 ticks)
+# ../../Harary/Inputs/H2_50.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+MIP Presolve eliminated 247118 rows and 122550 columns.
+MIP Presolve modified 4816 coefficients.
+Reduced MIP has 5482 rows, 2451 columns, and 52420 nonzeros.
+Reduced MIP has 2450 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.26 sec. (141.91 ticks)
+Found incumbent of value 49.000000 after 0.30 sec. (164.98 ticks)
+Probing time = 0.03 sec. (9.15 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 5482 rows, 2451 columns, and 52420 nonzeros.
+Reduced MIP has 2450 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (31.01 ticks)
+Probing time = 0.02 sec. (8.51 ticks)
+Clique table members: 26532.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.16 sec. (125.36 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           49.0000        6.0000            87.76%
+      0     0        6.5849  1562       49.0000        6.5849     1713   86.56%
+      0     0        7.0000  1006       49.0000     Cuts: 626     2548   85.71%
+      0     0        7.0967  1130       49.0000    Cuts: 1271     3606   85.52%
+      0     0        7.0967  1144       49.0000     Cuts: 168     3947   85.52%
+*     0+    0                           25.0000        7.0967            71.61%
+      0     0        cutoff             25.0000                   3947    0.00%
+Elapsed time = 1.70 sec. (1028.72 ticks, tree = 0.01 MB, solutions = 2)
+
+Implied bound cuts applied:  919
+Zero-half cuts applied:  36
+Gomory fractional cuts applied:  157
+
+Root node processing (before b&c):
+  Real time             =    1.71 sec. (1033.11 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    1.71 sec. (1033.11 ticks)
+# ../../Harary/Inputs/H3_30.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+MIP Presolve eliminated 50137 rows and 24879 columns.
+MIP Presolve modified 4199 coefficients.
+Reduced MIP has 4838 rows, 2122 columns, and 60353 nonzeros.
+Reduced MIP has 2121 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.14 sec. (55.82 ticks)
+Found incumbent of value 29.000000 after 0.17 sec. (66.50 ticks)
+Probing time = 0.02 sec. (5.57 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 4838 rows, 2122 columns, and 60353 nonzeros.
+Reduced MIP has 2121 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.06 sec. (34.32 ticks)
+Probing time = 0.01 sec. (5.36 ticks)
+Clique table members: 14275.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.07 sec. (60.49 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           29.0000        5.0000            82.76%
+      0     0        5.1501   901       29.0000        5.1501      922   82.24%
+      0     0        6.0000   212       29.0000      Cuts: 25     1793   79.31%
+      0     0        6.0000   241       29.0000     Cuts: 452     2270   79.31%
+      0     0        6.0000   214       29.0000     Cuts: 134     2589   79.31%
+*     0+    0                           28.0000        6.0000            78.57%
+      0     0        6.0000   209       28.0000     Cuts: 197     3037   78.57%
+*     0+    0                           17.0000        6.0000            64.71%
+*     0+    0                           10.0000        6.0000            40.00%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 4075 rows and 1740 columns.
+MIP Presolve modified 454 coefficients.
+Reduced MIP has 763 rows, 382 columns, and 3521 nonzeros.
+Reduced MIP has 381 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (6.33 ticks)
+Probing fixed 10 vars, tightened 0 bounds.
+Probing time = 0.01 sec. (5.92 ticks)
+Cover probing fixed 0 vars, tightened 83 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 156 rows and 10 columns.
+MIP Presolve modified 166 coefficients.
+Reduced MIP has 607 rows, 372 columns, and 3143 nonzeros.
+Reduced MIP has 371 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.89 ticks)
+Probing time = 0.01 sec. (2.42 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 607 rows, 372 columns, and 3143 nonzeros.
+Reduced MIP has 371 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.33 ticks)
+Represolve time = 0.06 sec. (38.35 ticks)
+Probing time = 0.01 sec. (2.42 ticks)
+Clique table members: 4783.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.01 sec. (4.84 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           10.0000        8.0000            20.00%
+      0     0        8.1667   141       10.0000        8.1667     3213   18.33%
+*     0+    0                            9.0000        8.1667             9.26%
+      0     0        cutoff              9.0000        8.1667     3213    9.26%
+Elapsed time = 1.35 sec. (848.61 ticks, tree = 0.01 MB, solutions = 5)
+
+Implied bound cuts applied:  5
+Zero-half cuts applied:  31
+
+Root node processing (before b&c):
+  Real time             =    1.36 sec. (850.05 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    1.36 sec. (850.05 ticks)
+# ../../Harary/Inputs/H3_50.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+MIP Presolve eliminated 238440 rows and 118849 columns.
+MIP Presolve modified 12277 coefficients.
+Reduced MIP has 14185 rows, 6152 columns, and 283137 nonzeros.
+Reduced MIP has 6151 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.49 sec. (253.04 ticks)
+Found incumbent of value 49.000000 after 0.58 sec. (301.82 ticks)
+Probing time = 0.02 sec. (7.72 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 14185 rows, 6152 columns, and 283137 nonzeros.
+Reduced MIP has 6151 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.26 sec. (153.24 ticks)
+Probing time = 0.02 sec. (7.87 ticks)
+Clique table members: 15824.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.58 sec. (513.72 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           49.0000        6.0000            87.76%
+      0     0        6.1792  3194       49.0000        6.1792     3412   87.39%
+      0     0        7.0000   594       49.0000      Fract: 1     6027   85.71%
+*     0+    0                           48.0000        7.0000            85.42%
+      0     0        7.0000   729       48.0000     Cuts: 774     7363   85.42%
+      0     0        7.0000   681       48.0000     Cuts: 249     8176   85.42%
+*     0+    0                           17.0000        7.0000            58.82%
+*     0+    0                           15.0000        7.0000            53.33%
+*     0+    0                           14.0000        7.0000            50.00%
+      0     0        cutoff             14.0000        7.0000     8176   50.00%
+Elapsed time = 4.91 sec. (3286.94 ticks, tree = 0.01 MB, solutions = 5)
+
+Implied bound cuts applied:  70
+Zero-half cuts applied:  266
+Gomory fractional cuts applied:  200
+
+Root node processing (before b&c):
+  Real time             =    4.92 sec. (3294.57 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    4.92 sec. (3294.57 ticks)
+# ../../Harary/Inputs/H10_30.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 29.000000 after 0.02 sec. (13.14 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 39688 rows and 19152 columns.
+MIP Presolve modified 14412 coefficients.
+Reduced MIP has 15392 rows, 7849 columns, and 932772 nonzeros.
+Reduced MIP has 7848 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.88 sec. (493.91 ticks)
+Probing time = 0.03 sec. (9.40 ticks)
+Tried aggregator 1 time.
+# ../../Harary/Inputs/H10_30.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 29.000000 after 0.02 sec. (13.14 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 39688 rows and 19152 columns.
+MIP Presolve modified 14412 coefficients.
+Reduced MIP has 15392 rows, 7849 columns, and 932772 nonzeros.
+Reduced MIP has 7848 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.88 sec. (493.91 ticks)
+Probing time = 0.05 sec. (9.40 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 15392 rows, 7849 columns, and 932772 nonzeros.
+Reduced MIP has 7848 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.81 sec. (467.60 ticks)
+Probing time = 0.02 sec. (9.35 ticks)
+Clique table members: 18759.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 91.36 sec. (37228.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           29.0000        5.0000            82.76%
+      0     0        5.0000   269       29.0000        5.0000    27743   82.76%
+*     0+    0                           27.0000        5.0000            81.48%
+*     0+    0                            5.0000        5.0000             0.00%
+      0     0        cutoff              5.0000        5.0000    27743    0.00%
+Elapsed time = 96.76 sec. (40789.02 ticks, tree = 0.01 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =   96.77 sec. (40792.98 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =   96.77 sec. (40792.98 ticks)
+# ../../Harary/Inputs/H8_30.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 29.000000 after 0.02 sec. (9.61 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 42667 rows and 20812 columns.
+MIP Presolve modified 11532 coefficients.
+Reduced MIP has 12383 rows, 6189 columns, and 571738 nonzeros.
+Reduced MIP has 6188 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.75 sec. (312.04 ticks)
+Probing time = 0.04 sec. (7.22 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 12383 rows, 6189 columns, and 571738 nonzeros.
+Reduced MIP has 6188 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.68 sec. (288.40 ticks)
+Probing time = 0.03 sec. (7.19 ticks)
+Clique table members: 14516.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.53 sec. (248.04 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           29.0000        5.0000            82.76%
+      0     0        5.0000    78       29.0000        5.0000     1177   82.76%
+      0     0        5.0000    36       29.0000   ZeroHalf: 1     1179   82.76%
+*     0+    0                            6.0000        5.0000            16.67%
+      0     0        5.0000    44        6.0000      Cuts: 15     1226   16.67%
+*     0+    0                            5.0000        5.0000             0.00%
+      0     0        cutoff              5.0000        5.0000     1226    0.00%
+Elapsed time = 4.23 sec. (1888.48 ticks, tree = 0.01 MB, solutions = 3)
+
+Zero-half cuts applied:  11
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    4.24 sec. (1891.37 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    4.24 sec. (1891.37 ticks)
+# ../../Harary/Inputs/H9_30.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 29.000000 after 0.02 sec. (11.11 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 41079 rows and 19901 columns.
+MIP Presolve modified 12971 coefficients.
+Reduced MIP has 13986 rows, 7100 columns, and 758541 nonzeros.
+Reduced MIP has 7099 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.11 sec. (404.21 ticks)
+Probing time = 0.03 sec. (8.30 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 13986 rows, 7100 columns, and 758541 nonzeros.
+Reduced MIP has 7099 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.97 sec. (381.58 ticks)
+Probing time = 0.03 sec. (8.18 ticks)
+Clique table members: 15279.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 87.11 sec. (24092.22 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           29.0000        5.0000            82.76%
+      0     0        5.0000   258       29.0000        5.0000    21373   82.76%
+*     0+    0                           28.0000        5.0000            82.14%
+*     0+    0                            5.0000        5.0000             0.00%
+      0     0        cutoff              5.0000        5.0000    21373    0.00%
+Elapsed time = 105.62 sec. (32903.09 ticks, tree = 0.01 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =  105.63 sec. (32906.53 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =  105.63 sec. (32906.53 ticks)
+# ../../Harary/Inputs/H11_50.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 49.000000 after 0.11 sec. (67.58 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 202394 rows and 99735 columns.
+MIP Presolve modified 47313 coefficients.
+Reduced MIP has 50431 rows, 25266 columns, and 5821191 nonzeros.
+Reduced MIP has 25265 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 7.52 sec. (2864.52 ticks)
+Probing time = 0.10 sec. (21.57 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 50431 rows, 25266 columns, and 5821191 nonzeros.
+Reduced MIP has 25265 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 7.21 sec. (2873.38 ticks)
+Probing time = 0.11 sec. (21.33 ticks)
+Clique table members: 24076.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 3583.10 sec. (693394.62 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           49.0000        6.0000            87.76%
+      0     0  -1.00000e+37     0       49.0000        6.0000   112109   87.76%
+
+Root node processing (before b&c):
+  Real time             = 3601.21 sec. (700614.51 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) = 3601.21 sec. (700614.51 ticks)
+# ../../Harary/Inputs/H3_17.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 16.000000 after 0.00 sec. (0.73 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 8776 rows and 4269 columns.
+MIP Presolve modified 1154 coefficients.
+Reduced MIP has 1382 rows, 645 columns, and 11211 nonzeros.
+Reduced MIP has 644 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (11.07 ticks)
+Probing time = 0.01 sec. (3.04 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 1382 rows, 645 columns, and 11211 nonzeros.
+Reduced MIP has 644 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (6.36 ticks)
+Probing time = 0.01 sec. (2.98 ticks)
+Clique table members: 5074.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.01 sec. (4.84 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           16.0000        5.0000            68.75%
+*     0     0      integral     0        5.0000        5.0000      110    0.00%
+Elapsed time = 0.07 sec. (36.21 ticks, tree = 0.00 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.07 sec. (36.43 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.07 sec. (36.43 ticks)
+# ../../Harary/Inputs/H6_17.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 5.000000 after 0.00 sec. (0.99 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (1.09 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (1.09 ticks)
+# ../../Harary/Inputs/H7_17.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 5.000000 after 0.00 sec. (1.17 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (1.28 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (1.28 ticks)
+# ../../Harary/Inputs/H5_17.in
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Found incumbent of value 5.000000 after 0.01 sec. (0.83 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (0.93 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (0.93 ticks)
